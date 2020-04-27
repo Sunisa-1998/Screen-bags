@@ -16,41 +16,31 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
 </style>
-<body class="w3-khaki">
+<body class="w3-blue-grey">
 
-<!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <!-- Avatar image in top left corner -->
-  <img src="logo.jpg" style="width:100%">
-  <a href="main-page.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-home w3-xxlarge"></i>
-    <p>Product</p>
-  </a>
-  <a href="page3.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-user w3-xxlarge"></i>
-    <p>Product detail</p>
-  </a>
-  <a href="page2.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-eye w3-xxlarge"></i>
-    <p>Payment methods</p>
-  </a>
-  <a href="page1.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-envelope w3-xxlarge"></i>
-    <p>Contact</p>
-  </a>
-</nav>
-
-<!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">Product</a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">Product detail</a>
-    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">Payment methods</a>
-    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">Contact</a>
+<!-- Navigation Bar -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-border-bottom w3-xlarge">
+     <a href="#" class="w3-bar-item w3-button w3-text-red w3-hover-red"><b><i class="fa fa-map-marker w3-margin-right"></i>Wonder Bag</b></a>
+     <a href="order.html" class="w3-bar-item w3-button w3-right w3-hover-red w3-text-grey"><i class="fa fa-shopping-cart w3-margin-right"></i>
+       <i class="fa fa-search"></i></a>
   </div>
+ <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;"> 
+  <div class="w3-right w3-hide-small">
+    <a href="index.html" class="w3-bar-item w3-button w3-padding">Product</a>
+    <a href="page2.html" class="w3-bar-item w3-button">Payment methods</a>
+    <a href="page1.html" class="w3-bar-item w3-button w3-padding">Contact</a>
+  </div>
+ </div>
+</div>
+  <a href="#" class="w3-bar-item w3-button w3-right w3-hover-red w3-text-grey"><i class="fa fa-shopping-cart w3-margin-right"></i>
+    <i class="fa fa-search"></i></a>
 </div>
 
+
   <!-- Contact Section -->
+  <br>
+  <br>
   <div class="w3-padding-64 w3-content w3-text-black" id="contact">
     <h2 class="w3-text-Black">Order products</h2>
     <hr style="width:200px" class="w3-black">
@@ -73,13 +63,13 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   </div>
   
     <!-- Footer -->
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <footer class="w3-content w3-padding-64 w3-text-black w3-xlarge">
+    <i class="fa fa-facebook-official w3-black-opacity"></i>
+    <i class="fa fa-instagram w3-black-opacity"></i>
+    <i class="fa fa-snapchat w3-black-opacity"></i>
+    <i class="fa fa-pinterest-p w3-black-opacity"></i>
+    <i class="fa fa-twitter w3-black-opacity"></i>
+    <i class="fa fa-linkedin w3-black-opacity"></i>
   <!-- End footer -->
   </footer>
 
