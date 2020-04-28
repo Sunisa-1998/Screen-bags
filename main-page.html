@@ -54,13 +54,14 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   <!-- Automatic Slideshow Images -->
         <div class="mySlides w3-display-container w3-center" style="display: block;">
         <img src="prof1.jpg" alt="Jeans" style="width:100%;min-height:350px;max-height:600px;">
-        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding:24px 48px">
+        <div class="w3-display-topleft w3-container w3-text-white w3-padding-32 w3-hide-small">
          <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large">SHOP NOW</a></p                                                                                    
         </div>
         </div>
         <div class="mySlides w3-display-container w3-center" style="display: none;">
         <img src="h1.jpg" alt="Jeans" style="width:100%;min-height:350px;max-height:600px;">
-        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding:24px 48px">                    
+        <div class="w3-display-topleft w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large">SHOP NOW</a></p                                                                                       
         </div>
         </div>
         </div>                                                                            
@@ -170,7 +171,8 @@ function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
   document.getElementById("myOverlay").style.display = "none";
 }
-                                                             
+</script>
+<script>                                                             
 // Automatic Slideshow - change image every 4 seconds
         var myIndex = 0;
         carousel();
